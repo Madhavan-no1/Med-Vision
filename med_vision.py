@@ -179,7 +179,7 @@ def main():
             )
 
     elif page == "Upload PDF":
-        st.title("Upload PDF (e.g., Medical Reports or Scans)")
+        st.title("Med-Vision Advanced -- Upload PDF (e.g., Medical Reports or Scans)")
 
         # Upload a PDF file
         uploaded_file = st.file_uploader("Choose a PDF file", type=["pdf"])
